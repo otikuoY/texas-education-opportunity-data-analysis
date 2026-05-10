@@ -42,14 +42,19 @@ I used:
 
 Private-school access in larger Texas counties appears to be more strongly associated with adult education level than with median income or poverty rate alone.
 
-## Charts
+## Visualizations
 
-The project includes charts comparing private-school access with:
+### Adult Education Level and Private School Access
+![Adult Education Level and Private School Access](charts/education_vs_private_school_access.png)
 
-- median household income
-- county income group
-- poverty rate
-- bachelor's degree or higher percentage
+### Private School Access by Income Group
+![Private School Access by Income Group](charts/private_school_access_by_income_group.png)
+
+### Poverty Rate and Private School Access
+![Poverty Rate and Private School Access](charts/poverty_vs_private_school_access.png)
+
+### Median Income and Private School Access
+![Median Income and Private School Access](charts/income_vs_private_school_access_population_50000_plus.png)
 
 ## Tools Used
 
