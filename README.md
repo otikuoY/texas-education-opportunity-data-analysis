@@ -6,6 +6,12 @@ I started this project to better understand how educational opportunity varies a
 
 This project analyzes the relationship between private-school access, income, poverty, population, and adult education level in Texas counties.
 
+## Final Notebook
+
+The cleaned final analysis notebook is available here:
+
+[View Final Analysis Notebook](notebooks/final_texas_education_analysis.ipynb)
+
 ## Research Question
 
 How does private-school access vary across Texas counties, and how is it related to income, poverty, and adult education level?
