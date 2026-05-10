@@ -71,6 +71,10 @@ Private-school access in larger Texas counties appears to be more strongly assoc
 - Google Colab
 - GitHub
 
+## Reproducibility Note
+
+This notebook was developed in Google Colab. The cleaned datasets used in the analysis are included in the `data/clean` folder. The original raw NCES private-school data can be downloaded from the NCES Private School Universe Survey website.
+
 ## Limitations
 
 This project shows association, not causation. County-level analysis can hide important differences within counties, and private-school access may also depend on factors such as religion, urbanization, local history, transportation, and family preferences.
