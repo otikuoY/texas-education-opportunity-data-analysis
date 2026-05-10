@@ -1,0 +1,28 @@
+                               OLS Regression Results                               
+====================================================================================
+Dep. Variable:     private_schools_per_100k   R-squared:                       0.212
+Model:                                  OLS   Adj. R-squared:                  0.163
+Method:                       Least Squares   F-statistic:                     4.313
+Date:                      Sun, 10 May 2026   Prob (F-statistic):            0.00376
+Time:                              22:47:52   Log-Likelihood:                -145.67
+No. Observations:                        69   AIC:                             301.3
+Df Residuals:                            64   BIC:                             312.5
+Df Model:                                 4                                         
+Covariance Type:                  nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -1.7637      4.412     -0.400      0.691     -10.577       7.050
+median_income_10k           0.0257      0.398      0.065      0.949      -0.770       0.821
+poverty_rate                0.0415      0.101      0.410      0.683      -0.161       0.244
+bachelors_or_higher_pct     0.0974      0.048      2.017      0.048       0.001       0.194
+log_population              0.1752      0.303      0.578      0.565      -0.430       0.781
+==============================================================================
+Omnibus:                       54.936   Durbin-Watson:                   2.310
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              287.880
+Skew:                           2.294   Prob(JB):                     3.07e-63
+Kurtosis:                      11.892   Cond. No.                         600.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
