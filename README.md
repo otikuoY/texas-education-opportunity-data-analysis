@@ -113,6 +113,17 @@ Adding private-school access increased the model R-squared by only 0.012, and pr
 - Google Colab
 - GitHub
 
+## How to Run
+
+This project was developed in Google Colab. To reproduce or review the analysis:
+
+1. Download or clone this repository.
+2. Open the notebooks in the `notebooks` folder.
+3. Use the cleaned datasets in `data/clean`.
+4. Run the notebook cells from top to bottom.
+
+The notebooks were developed in Google Colab and may require path adjustments if run outside my original Drive setup.
+
 ## Reproducibility Note
 
 This notebook was developed in Google Colab. The cleaned datasets used in the analysis are included in the `data/clean` folder. The original raw NCES private-school data can be downloaded from the NCES Private School Universe Survey website.
