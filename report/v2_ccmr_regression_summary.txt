@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          avg_ccmr_rate   R-squared:                       0.191
+Model:                            OLS   Adj. R-squared:                  0.112
+Method:                 Least Squares   F-statistic:                     2.433
+Date:                Mon, 11 May 2026   Prob (F-statistic):             0.0355
+Time:                        00:02:02   Log-Likelihood:                -231.90
+No. Observations:                  69   AIC:                             477.8
+Df Residuals:                      62   BIC:                             493.4
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                       14.2318     15.741      0.904      0.369     -17.235      45.699
+private_schools_per_100k    -0.4229      0.450     -0.940      0.351      -1.322       0.476
+median_income_10k            1.9310      1.413      1.367      0.177      -0.893       4.755
+poverty_rate                 0.3196      0.423      0.756      0.452      -0.525       1.164
+bachelors_or_higher_pct     -0.3627      0.214     -1.693      0.096      -0.791       0.066
+avg_econ_disadv_pct          0.0732      0.142      0.515      0.609      -0.211       0.357
+log_population               0.1456      1.190      0.122      0.903      -2.233       2.525
+==============================================================================
+Omnibus:                        6.455   Durbin-Watson:                   2.154
+Prob(Omnibus):                  0.040   Jarque-Bera (JB):                5.839
+Skew:                           0.552   Prob(JB):                       0.0540
+Kurtosis:                       3.902   Cond. No.                     1.22e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.22e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
