@@ -18,7 +18,7 @@ The cleaned final analysis notebook is available here:
 
 ## Research Question
 
-How does private-school access vary across Texas counties, and how is it related to income, poverty, and adult education level?
+How does private-school access vary across Texas counties, and how is it related to income, poverty, adult education level, and public-school outcomes?
 
 ## Data Sources
 
@@ -126,7 +126,7 @@ The notebooks were developed in Google Colab and may require path adjustments if
 
 ## Reproducibility Note
 
-This notebook was developed in Google Colab. The cleaned datasets used in the analysis are included in the `data/clean` folder. The original raw NCES private-school data can be downloaded from the NCES Private School Universe Survey website.
+This project was developed in Google Colab. The cleaned datasets used in the analysis are included in the `data/clean` folder. The original raw datasets can be downloaded from the NCES Private School Universe Survey, U.S. Census ACS, and Texas Academic Performance Reports websites.
 
 ## Limitations
 
