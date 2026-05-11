@@ -48,6 +48,30 @@ I used:
 
 Private-school access in larger Texas counties appears to be more strongly associated with adult education level than with median income or poverty rate alone.
 
+## Version 2: Public School Outcomes
+
+I expanded this project by adding Texas Academic Performance Reports (TAPR) public-school outcome data.
+
+This version adds county-level public-school indicators, including:
+
+- economically disadvantaged student percentage
+- attendance rate
+- chronic absenteeism rate
+- CCMR rate
+- graduation rate
+
+The main Version 2 question was:
+
+> Does private-school access help explain public-school outcomes across Texas counties?
+
+The results showed that private-school access did not meaningfully improve the model's ability to explain public-school CCMR rates after accounting for income, poverty, adult education level, economic disadvantage, and population.
+
+Adding private-school access increased the model R-squared by only 0.012, and private-school access was not statistically significant.
+
+[View Version 2 Notebook](notebooks/02_public_school_outcomes_analysis.ipynb)
+
+[View Version 2 Results Summary](report/v2_results_summary.md)
+
 ## Visualizations
 
 ### Adult Education Level and Private School Access
@@ -61,6 +85,15 @@ Private-school access in larger Texas counties appears to be more strongly assoc
 
 ### Median Income and Private School Access
 ![Median Income and Private School Access](charts/income_vs_private_school_access_population_50000_plus.png)
+
+### Version 2: Private School Access and Public School CCMR
+![Private School Access and Public School CCMR](charts/v2_private_access_vs_ccmr.png)
+
+### Version 2: Private School Access and Economic Disadvantage
+![Private School Access and Economic Disadvantage](charts/v2_private_access_vs_econ_disadv.png)
+
+### Version 2: Private School Access and Chronic Absenteeism
+![Private School Access and Chronic Absenteeism](charts/v2_private_access_vs_chronic_absenteeism.png)
 
 ## Tools Used
 
