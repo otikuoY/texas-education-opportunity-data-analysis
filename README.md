@@ -22,10 +22,14 @@ How does private-school access vary across Texas counties, and how is it related
 
 ## Data Sources
 
-- NCES Private School Universe Survey
-- U.S. Census ACS 5-Year county-level data
-- Texas Academic Performance Reports (TAPR)
+- [NCES Private School Universe Survey](https://nces.ed.gov/surveys/pss/)
+- [U.S. Census ACS 5-Year Data](https://www.census.gov/data/developers/data-sets/acs-5year.html)
+- [Texas Academic Performance Reports (TAPR)](https://tea.texas.gov/texas-schools/accountability/academic-accountability/performance-reporting/texas-academic-performance-reports)
 - County-level datasets created with Python and pandas
+
+## Data Availability
+
+The cleaned datasets used for analysis are included in `data/clean`. Raw datasets were not uploaded to keep the repository lightweight; they can be downloaded from NCES, Census ACS, and TEA TAPR using the sources listed above.
 
 ## Methods
 
