@@ -4,13 +4,17 @@
 
 I started this project to better understand how educational opportunity varies across Texas. As a private-school student, I wanted to look beyond my own experience and use public data to study how private-school access differs across counties.
 
-This project analyzes the relationship between private-school access, income, poverty, population, and adult education level in Texas counties.
+This project analyzes the relationship between private-school access, income, poverty, population, adult education level, and public-school outcomes in Texas counties.
 
 ## Final Notebook
 
 The cleaned final analysis notebook is available here:
 
 [View Final Analysis Notebook](notebooks/final_texas_education_analysis.ipynb)
+
+## Project Reflection
+
+[Read Project Reflection](report/project_reflection.md)
 
 ## Research Question
 
@@ -20,7 +24,8 @@ How does private-school access vary across Texas counties, and how is it related
 
 - NCES Private School Universe Survey
 - U.S. Census ACS 5-Year county-level data
-- County-level dataset created with Python and pandas
+- Texas Academic Performance Reports (TAPR)
+- County-level datasets created with Python and pandas
 
 ## Methods
 
